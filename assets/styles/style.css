@@ -1,0 +1,26 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+.page {
+    width: 100vw;
+    height: 100vh;
+}
+
+.half-page {
+    width: 100vw;
+    height: 50vh;
+}
+
+#title {
+    background-color: #111111;
+}
+
+#title img {
+    position: relative;
+    top: calc(50vh - 172px);
+    left: 50vw;
+    transform: translateY(-50%);
+    transform: translateX(-50%);
+}
