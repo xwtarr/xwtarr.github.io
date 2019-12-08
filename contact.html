@@ -28,8 +28,11 @@
 
     <div id="contact" class="page container">
         <h1>CONTACT US</h1>
-        <h5>How can we help you reimagine 3D printing?<br>Email us at <b>team@prisam.io</b> or just fill out the form below!</h5>
-        <form class="gform" method="post" action="https://script.google.com/macros/s/AKfycbwnAfLCZB6qjZVKsrQCZmFV_8e8cc18tphTujU0/exec" data-email="example@email.net">
+        <h5>How can we help you reimagine 3D printing?<br>Email us at <b>team@prisam.io</b> or just fill out the form
+            below!</h5>
+        <form class="gform" method="post"
+            action="https://script.google.com/macros/s/AKfycbwnAfLCZB6qjZVKsrQCZmFV_8e8cc18tphTujU0/exec"
+            data-email="example@email.net">
             <div class="form-group row">
                 <div class="col-md-4 mb-3">
                     <label for="FName">First Name</label>
@@ -54,9 +57,17 @@
                 <label for="Body">Body</label>
                 <textarea name="Body" id="Body" rows="10" class="form-control" aria-label="With textarea"></textarea>
             </div>
-            <button type="submit" value="submit" class="btn btn-green">Send Email!</button>
+            <button type="submit" value="submit" onclick="formsubmit();" class="btn btn-green">Send Email!</button>
         </form>
+        <div class="thankyou">
+            <h1>Thanks!</h1>
+            <h5>Thank you for reaching out, our team wont respond and you know this doesn't matter... so please ...
+                bye...
+                starting redirect in 3, 2, 1...</h5>
+        </div>
+
     </div>
+
     <footer>
         <div id="bars" class="container">
             <div class="row">
@@ -75,6 +86,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+    <script data-cfasync="false" type="text/javascript"
+        src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js"></script>
 </body>
 
 </html>
